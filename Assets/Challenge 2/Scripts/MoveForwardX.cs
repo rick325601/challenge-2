@@ -9,6 +9,7 @@ public class MoveForwardX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // moves the player forward in a specified time
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 }
